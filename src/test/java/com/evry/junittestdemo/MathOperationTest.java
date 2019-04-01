@@ -8,12 +8,13 @@ import java.util.Arrays;
 import org.junit.Test;
 public class MathOperationTest {
 	
-	
+	//Add
 	@Test  
     public void testAdd(){  
         assertEquals(5,MathOperation.add(2,3));  
     }  
 	
+	//Multiply
 	@Test  
     public void testMultiply(){  
         assertEquals(4,MathOperation.multiply(2,2));  
